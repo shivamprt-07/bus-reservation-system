@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bus Booking System</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 64px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+height: 100%;
+}
+
+    form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    input[type="text"],
+    select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    .submit-button {
+        display: block;
+        margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+        <img class="logo" src="https://t4.ftcdn.net/jpg/03/20/38/89/360_F_320388953_j2DOQNdq5og1zrpipaqJWahiHLqm54ee.jpg" alt="Bus Logo">
+        <h1>Bus Booking System</h1>
+        <a href="enquiry process" target="_blank">Help</a>
+    </header>
+
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter name">
+
+      <label for="mobile number">Contact Details:</lavscode-file://vscode-app/c:/Users/91812/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.htmlbel>
+      <input type="text" id="mobile number" name="mobile number" placeholder="Enter mobile number">
+
+      <label for="source">Source:</label>
+      <input type="text" id="source" name="source" placeholder="Enter source">
+
+      <label for="destination">Destination:</label>
+      <input type="text" id="destination" name="destination" placeholder="Enter destination">
+
+      <label for="date">Date:</label>
+      <input type="text" id="date" name="date" placeholder="Enter date">
+
+      <label for="passengers">Passengers:</label>
+      <select id="passengers" name="passengers">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="5+">5+</option>
+      </select>
+      <div class="fr signin-block  " id="signin-block">
+        <i id="i-icon-profile" class="icon-profile-new-unsigned "></i>
+            <div id="walletbalance" class="walletBalanceHeader hide">
+                <div id="BalanceText">  </div>
+                <div id="Balance"> </div>
+            </div>                                   
+            <button id="search_btn" class="fl submit-button">Search Buses</button>
+            
+            </div>
+        </div>
+    </div>
+      
+    </form>
+  </div>
+</body>
+</html>
